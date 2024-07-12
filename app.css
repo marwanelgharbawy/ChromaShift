@@ -38,7 +38,7 @@ button {
     height: 2.5em;
     font-size: 1.5em;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 7px;
     cursor: pointer;
     transition: all 0.1s;
 }
