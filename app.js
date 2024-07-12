@@ -24,27 +24,6 @@ function changeBackground() {
     let hex = rgbToHex(r, g, b);
     document.getElementById("rgbValue").innerText = `RGB: ${rgb}`
     document.getElementById("hexValue").innerText = `Hex: ${hex}`
-
-    // Change button's color
-    if (r < 10) {
-        r += 18
-    }
-    if (g > 245) {
-        g += 18
-    }
-    if (b > 245) {
-        b += 18
-    }
-    button.style.backgroundColor = `rgb(${r - 12}, ${g - 12}, ${b - 12})`
-
-    // Hover
-    button.addEventListener("mouseenter", function () {
-        button.style.backgroundColor = `rgb(${r - 12}, ${g - 12}, ${b - 12})`;
-    });
-    // Hover out
-    button.addEventListener("mouseleave", function () {
-        button.style.backgroundColor = `rgb(${r - 18}, ${g - 18}, ${b - 18})`;
-    });
 }
 
 function color() {

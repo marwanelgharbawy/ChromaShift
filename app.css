@@ -33,8 +33,11 @@ button {
     height: 2.5em;
     font-size: 1.5em;
     border: 1px solid black;
+    box-shadow: 3px 3px 0px #0a0a0a;
+    /* border: 1px solid #e8e8e8; */
     border-radius: 7px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .color-display {
