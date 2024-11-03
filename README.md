@@ -3,6 +3,9 @@
 ### Difficulty: Easy
 A simple color flipper webpage that dynamically changes the background color by the click of a button, demonstrating basic JavaScript functionality.  Perfect for learning DOM manipulation and working with colors in web development.
 
+### Live Demo  
+Check out the live version of this project: [Click Here](https://marwanelgharbawy.github.io/ChromaShift/)
+
 ### How it works:
 This micro project consists of 3 basic files: HTML, CSS, and JavaScript. The code is minimal and can be compressed further, but it has been kept expanded for simplicity and readability.
 
